@@ -1,0 +1,21 @@
+{
+  "name": "tialwind-css",
+  "version": "1.0.0",
+  "description": "This UI is designed by tailwind",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss build -i ./src/tailwind.css -o ./public/tailwind.css --watch"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "tailwind"
+  ],
+  "author": "Chandeep Sharma",
+  "license": "ISC", 
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3"
+  }
+}
