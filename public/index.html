@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- title -->
     <title>Tailwind</title>
@@ -11,6 +12,7 @@
     <!-- tailwind css  -->
     <link rel="stylesheet" href="tailwind.css">
 </head>
+
 <body>
     <!-- header -->
     <header class="border-b-2 bg-slate-200 border-gray-300 shadow-sm">
@@ -20,15 +22,38 @@
                 CONTACT.AUSTRALIA@FORCITCAMPLE.COM
             </div>
         </div>
-        
+
     </header>
     <!--/ header -->
 
     <!-- service links -->
-    <section class="bg-slate-200">
-        <h1 class="text-5xl font-bold text-center">INSTANT ACCESS TO <span class="text-blue-700">SERVICES LIKE</span></h1>
+    <section id="sec" class="bg-slate-200">
+        <h1 class="text-5xl font-bold text-center">INSTANT ACCESS TO <span class="text-blue-700">SERVICES LIKE</span>
+        </h1>
+        <div class="flex gap-4 text-center"></div>
     </section>
     <!--/ service links -->
-   
+
+    <section id="carousel" class="container relative bg-blue-400 mx-auto">
+        <div id="indicators">
+            <button type="button" class="next"><strong class="text-4xl">
+                    < </strong></button>
+            <button type="button" class="previous"><strong class="text-4xl">></strong></button>
+        </div>
+        <div id="items" class="flex gap-3 bg-red-500">
+            <div class="item active w-[100%] bg-slate-400">
+                
+            </div>
+            <div class="item">
+                
+            </div>
+            <div class="item">
+                
+            </div>
+        </div>
+
+    </section>
+
 </body>
+
 </html>
